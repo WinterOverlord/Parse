@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "parse:block/yello_oreworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "parse:block/yello_oreworld_portal_ns"
+    }
+  }
+}

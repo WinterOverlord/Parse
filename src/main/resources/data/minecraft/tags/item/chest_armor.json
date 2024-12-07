@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "parse:green_armor_chestplate",
+    "parse:yello_armor_chestplate",
+    "parse:cyan_armor_chestplate"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "parse:green_hoe",
+    "parse:yello_hoe",
+    "parse:cyan_hoe"
+  ]
+}

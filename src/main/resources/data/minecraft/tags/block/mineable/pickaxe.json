@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "parse:green_block",
+    "parse:green_ore",
+    "parse:yello_block",
+    "parse:yello_ore",
+    "parse:cyan_block",
+    "parse:cyan_ore"
+  ]
+}
