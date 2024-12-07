@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "parse:cyan_block",
+    "parse:cyan_ore"
+  ]
+}

@@ -1,0 +1,826 @@
+{
+  "mod_elements": [
+    {
+      "name": "Cyan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/parse/models/item/cyan.json",
+          "src/main/java/net/mcreator/parse/item/CyanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CyanOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/block/CyanOreBlock.java",
+          "src/main/resources/assets/parse/blockstates/cyan_ore.json",
+          "src/main/resources/data/parse/loot_table/blocks/cyan_ore.json",
+          "src/main/resources/data/parse/worldgen/configured_feature/cyan_ore.json",
+          "src/main/resources/assets/parse/models/item/cyan_ore.json",
+          "src/main/resources/data/parse/neoforge/biome_modifier/cyan_ore_biome_modifier.json",
+          "src/main/resources/assets/parse/models/block/cyan_ore.json",
+          "src/main/resources/data/parse/worldgen/placed_feature/cyan_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/parse/blockstates/cyan_block.json",
+          "src/main/resources/assets/parse/models/block/cyan_block.json",
+          "src/main/java/net/mcreator/parse/block/CyanBlockBlock.java",
+          "src/main/resources/data/parse/loot_table/blocks/cyan_block.json",
+          "src/main/resources/assets/parse/models/item/cyan_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/cyan_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/cyan_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/cyan_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/item/CyanPickaxeItem.java",
+          "src/main/resources/assets/parse/models/item/cyan_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/item/CyanAxeItem.java",
+          "src/main/resources/assets/parse/models/item/cyan_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/item/CyanSwordItem.java",
+          "src/main/resources/assets/parse/models/item/cyan_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/item/CyanShovelItem.java",
+          "src/main/resources/assets/parse/models/item/cyan_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/parse/models/item/cyan_hoe.json",
+          "src/main/java/net/mcreator/parse/item/CyanHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CyanPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/cyan_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/cyan_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/cyan_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/cyan_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/cyan_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/item/CyanArmorItem.java",
+          "src/main/resources/assets/parse/models/item/cyan_armor_leggings.json",
+          "src/main/resources/assets/parse/models/item/cyan_armor_boots.json",
+          "src/main/resources/assets/parse/models/item/cyan_armor_helmet.json",
+          "src/main/resources/assets/parse/models/item/cyan_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/cyan_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/cyan_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/cyan_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/cyan_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ParseModtags",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parse_modtags",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Yello",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/item/YelloItem.java",
+          "src/main/resources/assets/parse/models/item/yello.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/parse/models/block/yello_ore.json",
+          "src/main/resources/data/parse/loot_table/blocks/yello_ore.json",
+          "src/main/resources/data/parse/worldgen/configured_feature/yello_ore.json",
+          "src/main/resources/data/parse/worldgen/placed_feature/yello_ore.json",
+          "src/main/resources/assets/parse/blockstates/yello_ore.json",
+          "src/main/java/net/mcreator/parse/block/YelloOreBlock.java",
+          "src/main/resources/assets/parse/models/item/yello_ore.json",
+          "src/main/resources/data/parse/neoforge/biome_modifier/yello_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/loot_table/blocks/yello_block.json",
+          "src/main/resources/assets/parse/models/block/yello_block.json",
+          "src/main/resources/assets/parse/blockstates/yello_block.json",
+          "src/main/resources/assets/parse/models/item/yello_block.json",
+          "src/main/java/net/mcreator/parse/block/YelloBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "YelloOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/yello_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/yello_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/yello_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/item/YelloPickaxeItem.java",
+          "src/main/resources/assets/parse/models/item/yello_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/item/YelloAxeItem.java",
+          "src/main/resources/assets/parse/models/item/yello_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/item/YelloSwordItem.java",
+          "src/main/resources/assets/parse/models/item/yello_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/parse/models/item/yello_shovel.json",
+          "src/main/java/net/mcreator/parse/item/YelloShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "YelloHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/item/YelloHoeItem.java",
+          "src/main/resources/assets/parse/models/item/yello_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/yello_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/yello_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/yello_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/yello_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/yello_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/item/YelloArmorItem.java",
+          "src/main/resources/assets/parse/models/item/yello_armor_boots.json",
+          "src/main/resources/assets/parse/models/item/yello_armor_chestplate.json",
+          "src/main/resources/assets/parse/models/item/yello_armor_helmet.json",
+          "src/main/resources/assets/parse/models/item/yello_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/yello_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/yello_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/yello_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parse/recipe/yello_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanOreworld",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_oreworld",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/parse/models/block/cyan_oreworld_portal_ew.json",
+          "src/main/java/net/mcreator/parse/world/teleporter/CyanOreworldTeleporter.java",
+          "src/main/java/net/mcreator/parse/item/CyanOreworldItem.java",
+          "src/main/java/net/mcreator/parse/world/teleporter/CyanOreworldPortalShape.java",
+          "src/main/resources/assets/parse/blockstates/cyan_oreworld_portal.json",
+          "src/main/resources/assets/parse/models/item/cyan_oreworld.json",
+          "src/main/resources/data/parse/dimension_type/cyan_oreworld.json",
+          "src/main/java/net/mcreator/parse/block/CyanOreworldPortalBlock.java",
+          "src/main/java/net/mcreator/parse/world/dimension/CyanOreworldDimension.java",
+          "src/main/resources/assets/parse/models/block/cyan_oreworld_portal_ns.json",
+          "src/main/resources/data/parse/dimension/cyan_oreworld.json"
+        ]
+      }
+    },
+    {
+      "name": "YelloOreworld",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yello_oreworld",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/item/YelloOreworldItem.java",
+          "src/main/resources/assets/parse/blockstates/yello_oreworld_portal.json",
+          "src/main/resources/data/parse/dimension/yello_oreworld.json",
+          "src/main/resources/assets/parse/models/block/yello_oreworld_portal_ns.json",
+          "src/main/resources/data/parse/dimension_type/yello_oreworld.json",
+          "src/main/resources/assets/parse/models/item/yello_oreworld.json",
+          "src/main/java/net/mcreator/parse/world/dimension/YelloOreworldDimension.java",
+          "src/main/java/net/mcreator/parse/block/YelloOreworldPortalBlock.java",
+          "src/main/resources/assets/parse/models/block/yello_oreworld_portal_ew.json",
+          "src/main/java/net/mcreator/parse/world/teleporter/YelloOreworldPortalShape.java",
+          "src/main/java/net/mcreator/parse/world/teleporter/YelloOreworldTeleporter.java"
+        ]
+      }
+    },
+    {
+      "name": "Givea",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "givea",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/command/GiveaCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Timea",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "timea",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/command/TimeaCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Senda",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "senda",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/command/SendaCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "BombDangYaoShuiXiaoGuoKaiShiYingYongShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_dang_yao_shui_xiao_guo_kai_shi_ying_yong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/procedures/BombDangYaoShuiXiaoGuoKaiShiYingYongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bomb",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/potion/BombMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "BombDangXiaoGuoJieShu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_dang_xiao_guo_jie_shu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parse/procedures/BombDangXiaoGuoJieShuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:YelloArmor.body",
+      "~CUSTOM:CyanArmor.body"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:YelloPickaxe",
+      "~CUSTOM:CyanPickaxe"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:YelloBlock",
+      "~CUSTOM:CyanOre"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:YelloHoe",
+      "~CUSTOM:CyanHoe"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:YelloArmor.legs",
+      "~CUSTOM:CyanArmor.legs"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:YelloBlock",
+      "~CUSTOM:YelloOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:YelloBlock",
+      "~CUSTOM:YelloOre",
+      "~CUSTOM:CyanBlock",
+      "~CUSTOM:CyanOre"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:YelloShovel",
+      "~CUSTOM:CyanShovel"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:YelloAxe",
+      "~CUSTOM:CyanAxe"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:CyanBlock",
+      "~CUSTOM:CyanOre"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:YelloSword",
+      "~CUSTOM:CyanSword"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:YelloArmor.helmet",
+      "~CUSTOM:CyanArmor.helmet"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:YelloArmor.boots",
+      "~CUSTOM:CyanArmor.boots"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.parse.cyan_hoe": "Cyan Hoe",
+      "item.parse.cyan": "Cyan",
+      "item.parse.cyan_armor_boots": "Cyan Boots",
+      "item.parse.cyan_armor_chestplate": "Cyan Chestplate",
+      "item.parse.cyan_oreworld": "Cyan Oreworld Portal Igniter",
+      "item.parse.yello_shovel": "Yello Shovel",
+      "item.parse.yello_armor_chestplate": "Yello Chestplate",
+      "item.parse.cyan_armor_helmet": "Cyan Helmet",
+      "item.parse.yello_armor_helmet": "Yello Helmet",
+      "item.parse.cyan_armor_leggings": "Cyan Leggings",
+      "item.parse.yello_pickaxe": "Yello Pickaxe",
+      "effect.parse.bomb": "Bomb",
+      "item.parse.cyan_sword": "Cyan Sword",
+      "item.parse.yello_hoe": "Yello Hoe",
+      "item.parse.yello_armor_leggings": "Yello Leggings",
+      "item.parse.cyan_shovel": "Cyan Shovel",
+      "item.parse.yello": "Yello",
+      "block.parse.yello_block": "Block of Yello",
+      "block.parse.cyan_block": "Block of Cyan",
+      "item.parse.yello_axe": "Yello Axe",
+      "item.parse.yello_sword": "Yello Sword",
+      "item.parse.yello_armor_boots": "Yello Boots",
+      "item.parse.yello_oreworld": "Yello Oreworld Portal Igniter",
+      "item.parse.cyan_axe": "Cyan Axe",
+      "item.parse.cyan_pickaxe": "Cyan Pickaxe",
+      "item_group.parse.parse_modtags": "Parse Mod tags",
+      "block.parse.cyan_ore": "Cyan Ore",
+      "block.parse.yello_ore": "Yello Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "parse",
+    "modName": "Parse",
+    "version": "1.0.0",
+    "description": "Parse Mod",
+    "author": "WinterOverlord",
+    "websiteURL": "https://github.com/WinterOverlord/Parse",
+    "license": "MIT License",
+    "serverSideOnly": true,
+    "modPicture": "loge",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "WinterOverlord",
+    "modElementsPackage": "net.mcreator.parse"
+  },
+  "mcreatorVersion": 202400342716
+}
