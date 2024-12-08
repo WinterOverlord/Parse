@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "parse:block/grey_ore",
+    "particle": "parse:block/grey_ore"
+  },
+  "render_type": "solid"
+}

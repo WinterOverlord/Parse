@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "parse:grey_armor_boots",
+    "parse:green_armor_boots",
+    "parse:yello_armor_boots",
+    "parse:cyan_armor_boots"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "parse:grey_block"
+    }
+  ],
+  "result": {
+    "id": "parse:grey",
+    "count": 9
+  }
+}

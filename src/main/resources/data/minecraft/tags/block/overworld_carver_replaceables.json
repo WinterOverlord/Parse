@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "parse:grey_block",
+    "parse:green_block",
+    "parse:cyan_block",
+    "parse:yello_block",
+    "parse:cyan_ore"
+  ]
+}

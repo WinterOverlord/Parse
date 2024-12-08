@@ -1,0 +1,21 @@
+{
+  "_fv": 69,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Boo",
+    "splashName": "Splash Potion of Boo",
+    "lingeringName": "Lingering Potion of Boo",
+    "arrowName": "Arrow of Boo",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Bomb"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

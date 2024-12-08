@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "parse:grey_axe",
+    "parse:green_axe",
+    "parse:yello_axe",
+    "parse:cyan_axe"
+  ]
+}

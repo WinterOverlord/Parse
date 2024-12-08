@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "parse:grey_armor_helmet",
+    "parse:green_armor_helmet",
+    "parse:yello_armor_helmet",
+    "parse:cyan_armor_helmet"
+  ]
+}

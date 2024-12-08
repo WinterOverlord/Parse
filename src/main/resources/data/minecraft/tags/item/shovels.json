@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "parse:grey_shovel",
+    "parse:green_shovel",
+    "parse:yello_shovel",
+    "parse:cyan_shovel"
+  ]
+}
