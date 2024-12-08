@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "parse:pink_shovel",
+    "parse:grey_shovel",
+    "parse:green_shovel",
+    "parse:yello_shovel",
+    "parse:cyan_shovel"
+  ]
+}

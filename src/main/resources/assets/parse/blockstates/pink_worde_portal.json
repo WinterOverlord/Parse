@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "parse:block/pink_worde_portal_ew"
+    },
+    "axis=x": {
+      "model": "parse:block/pink_worde_portal_ns"
+    }
+  }
+}

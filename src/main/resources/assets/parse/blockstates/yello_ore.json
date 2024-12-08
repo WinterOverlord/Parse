@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "parse:block/yello_ore"
+    }
+  }
+}

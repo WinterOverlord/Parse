@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "parse:block/t01f625a63289cdcc61",
+    "up": "parse:block/t01f625a63289cdcc61",
+    "north": "parse:block/t01f625a63289cdcc61",
+    "east": "parse:block/t01f625a63289cdcc61",
+    "south": "parse:block/t01f625a63289cdcc61",
+    "west": "parse:block/t01f625a63289cdcc61",
+    "particle": "parse:block/t01f625a63289cdcc61"
+  },
+  "render_type": "solid"
+}

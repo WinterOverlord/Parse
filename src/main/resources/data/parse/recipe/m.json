@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "parse:banana_block"
+    }
+  ],
+  "result": {
+    "id": "parse:banana",
+    "count": 9
+  }
+}

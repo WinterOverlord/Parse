@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "parse:pink_armor_leggings",
+    "parse:grey_armor_leggings",
+    "parse:green_armor_leggings",
+    "parse:yello_armor_leggings",
+    "parse:cyan_armor_leggings"
+  ]
+}

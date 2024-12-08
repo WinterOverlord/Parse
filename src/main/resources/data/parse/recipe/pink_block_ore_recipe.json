@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "parse:pink_block"
+    }
+  ],
+  "result": {
+    "id": "parse:pink",
+    "count": 9
+  }
+}
