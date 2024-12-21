@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Yello"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Yello"
+      },
+      {
+        "value": "CUSTOM:Yello"
+      },
+      {
+        "value": "CUSTOM:Yello"
+      },
+      {
+        "value": "CUSTOM:Yello"
+      },
+      {
+        "value": "CUSTOM:Yello"
+      },
+      {
+        "value": "CUSTOM:Yello"
+      },
+      {
+        "value": "CUSTOM:Yello"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YelloArmor.body"
+    },
+    "name": "yello_armor_chestplate_recipe",
+    "namespace": "mod"
+  }
+}

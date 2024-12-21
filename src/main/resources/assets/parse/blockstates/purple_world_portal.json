@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "parse:block/purple_world_portal_ew"
+    },
+    "axis=x": {
+      "model": "parse:block/purple_world_portal_ns"
+    }
+  }
+}

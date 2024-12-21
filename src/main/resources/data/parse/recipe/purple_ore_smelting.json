@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 4.2,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "parse:purple_ore"
+  },
+  "result": {
+    "id": "parse:purple"
+  }
+}

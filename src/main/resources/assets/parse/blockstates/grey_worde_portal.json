@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "parse:block/grey_worde_portal_ew"
+    },
+    "axis=x": {
+      "model": "parse:block/grey_worde_portal_ns"
+    }
+  }
+}

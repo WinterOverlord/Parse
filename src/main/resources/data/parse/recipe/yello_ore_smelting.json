@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1.4,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "parse:yello_ore"
+  },
+  "result": {
+    "id": "parse:yello"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "parse:purple_sword",
+    "parse:pink_sword",
+    "parse:grey_sword",
+    "parse:green_sword",
+    "parse:yello_sword",
+    "parse:cyan_sword"
+  ]
+}

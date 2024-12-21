@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "parse:cyan_block"
+    }
+  ],
+  "result": {
+    "id": "parse:cyan",
+    "count": 9
+  }
+}

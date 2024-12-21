@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "parse:purple_pickaxe",
+    "parse:pink_pickaxe",
+    "parse:grey_pickaxe",
+    "parse:green_pickaxe",
+    "parse:yello_pickaxe",
+    "parse:cyan_pickaxe"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "parse:item/78168084d35d4276a4c554ee78ce1b2d_th"
+  }
+}

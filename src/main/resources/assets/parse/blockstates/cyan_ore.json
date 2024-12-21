@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "parse:block/cyan_ore"
+    }
+  }
+}

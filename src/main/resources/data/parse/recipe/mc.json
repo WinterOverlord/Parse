@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:golden_carrot"
+    },
+    "b": {
+      "item": "minecraft:cooked_porkchop"
+    }
+  },
+  "result": {
+    "id": "parse:differentfoods",
+    "count": 1
+  }
+}
